@@ -1,0 +1,10 @@
+
+.idea/
+
+__pycache__/
+
+numpy/.libs/
+
+numpy/
+
+pytest/

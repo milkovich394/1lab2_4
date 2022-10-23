@@ -1,10 +1,9 @@
 def Fib(n):
     import numpy as np
-    fib = np.array([0, 1, 1])
-    nfib = np.array([0, 1, 2])
-    for i in range(2, n):
+    n: int
+    fib = np.array([1, 1])
+    for i in range(1, n-1):
         fib = np.append(fib, [fib[-1] + fib[-2]])
-        nfib = np.append(nfib, [nfib[-1] + 1])
     return(fib)
 
 def Sort(a):
